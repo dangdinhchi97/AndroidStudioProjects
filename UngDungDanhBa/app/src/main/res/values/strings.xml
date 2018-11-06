@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">UngDungDanhBa</string>
+    <string name="input_name">input_name</string>
+    <string name="input_number">input_number</string>
+    <string name="general">General</string>
+    <string name="add">Add</string>
+    <string name="doyou">Do you want to call or send message</string>
+    <string name="call">Call</string>
+    <string name="send">Send message</string>
+</resources>

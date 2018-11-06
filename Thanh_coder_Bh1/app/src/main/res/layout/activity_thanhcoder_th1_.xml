@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Thanhcoder_th1_Activity"
+    android:background="@color/colorPrimary"
+
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="150dp">
+        <ImageView
+
+            android:gravity="center"
+            android:layout_marginTop="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/fb">
+
+        </ImageView>
+
+
+
+    </LinearLayout>
+
+
+        <LinearLayout
+        android:id="@+id/layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingTop="190dp"
+        >
+
+        <EditText
+            android:textSize="30dp"
+
+           android:layout_gravity="center"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:background="@color/whilee"
+            android:textColor="@color/black"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/press_user"
+            />
+        <EditText
+            android:textSize="30dp"
+            android:layout_marginTop="25dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:textColor="@color/black"
+            android:background="@color/whilee"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/press_password"/>
+        <Button
+            android:layout_marginTop="30dp"
+            android:layout_gravity="center"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:text="@string/login"
+            android:textColor="@color/whilee"
+            android:background="@color/blue"
+            android:textAllCaps="false"
+            android:textSize="25sp"/>
+        <TextView
+            android:layout_marginTop="40dp"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/forgot_passwork"
+            android:textColor="@color/whilee"/>
+    </LinearLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:textColor="@color/whilee"
+        android:layout_marginBottom="20dp"
+        android:text="@string/signup_fb"
+
+         />
+
+
+
+</RelativeLayout>

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="20dp"
+    tools:context=".btPs_bt5Activity">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Phan so dau tien"/>
+    <EditText
+        android:id="@+id/idtu1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nhap tu"/>
+    <EditText
+        android:id="@+id/idmau1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nhap mau"/>
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nhap phan so thu hai"/>
+    <EditText
+        android:id="@+id/idtu2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nhap tu"/>
+    <EditText
+        android:id="@+id/idmau2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nhap mau"/>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:layout_height="wrap_content">
+    <Button
+    android:id="@+id/idcong"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+        android:text="Cong"
+   />
+    <Button
+        android:layout_toRightOf="@+id/idcong"
+        android:id="@+id/idtru"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tru"/>
+    <Button
+        android:id="@+id/idnhan"
+        android:layout_toRightOf="@+id/idtru"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nhan"/>
+    <Button
+        android:id="@+id/idchia"
+        android:layout_toRightOf="@+id/idnhan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Chia"/>
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/idketqua"
+            android:text="Ket qua:"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="..."
+            android:layout_toRightOf="@+id/idketqua"
+            android:id="@+id/idresult"
+            android:layout_height="wrap_content" />
+    </RelativeLayout>
+
+
+
+</LinearLayout>

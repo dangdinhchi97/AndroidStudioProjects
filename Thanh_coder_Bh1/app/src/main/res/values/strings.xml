@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Thanh_coder_Bh1</string>
+    <string name="signup_fb">Sign Up For Facebook</string>
+    <string name="press_user">Press User</string>
+    <string name="press_password">Press User</string>
+    <string name="login">Login</string>
+    <string name="forgot_passwork">Forgot Passwork</string>
+
+</resources>

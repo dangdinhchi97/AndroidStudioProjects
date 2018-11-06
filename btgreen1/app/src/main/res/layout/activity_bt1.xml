@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".bt1Activity"
+    android:orientation="vertical"
+    android:layout_margin="20dp"
+    >
+    <EditText
+        android:layout_marginTop="40dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/nhapsothunhat"
+        android:id="@+id/et1"
+        />
+    <EditText
+        android:layout_marginTop="40dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/et2"
+        android:hint="@string/nhapsothuhai"
+        />
+    <RelativeLayout
+        android:layout_marginTop="40dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="+"
+
+            android:id="@+id/cong"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="-"
+            android:id="@+id/tru"
+            android:layout_toRightOf="@id/cong"
+            />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="*"
+            android:id="@+id/nhan"
+            android:layout_toRightOf="@id/tru"
+            />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="/"
+            android:id="@+id/chia"
+            android:layout_toRightOf="@id/nhan"
+            />
+
+        <TextView
+
+            android:id="@+id/tvketqua"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+           android:layout_centerInParent="true"
+           android:layout_centerHorizontal="true"
+
+            android:text="Ket qua:" />
+        <TextView
+
+            android:id="@+id/tvreslt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_centerInParent="true"
+            android:layout_centerHorizontal="true"
+            android:layout_toRightOf="@id/tvketqua"
+            android:text="" />
+    </RelativeLayout>
+
+
+
+
+</LinearLayout>
